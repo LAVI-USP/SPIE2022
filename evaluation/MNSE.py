@@ -16,6 +16,8 @@ sys.path.insert(1,'.')
 import libs.pyeval
 
 from libs.utilities import readDicom
+from scipy.ndimage import binary_erosion
+from skimage.morphology import disk
 
 #%% General parameters
 
@@ -72,6 +74,9 @@ groundTruth = np.mean(fullDose_all[:,:,:,n_rlzs_GT:], axis=-1)
 
 # Generate a boolean mask for the breast
 maskBreast = groundTruth < 2500
+
+# for s in range(maskBreast.shape[-1]):
+#     maskBreast[:,:,s] = binary_erosion(maskBreast[:,:,s],disk(39,dtype=bool))
 
 # Normalize the GT realizations
 for z in range(n_rlzs_GT, n_all_fullDose):
