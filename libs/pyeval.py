@@ -28,6 +28,8 @@ def MNSE(rlzs_GT, rlzs):
             
     
     Source: https://doi.org/10.1088/1361-6501/aab2f6
+
+    Please, if you use this metric, we ask you to cite the above paper.
     
     Code by Lucas Borges. Python by Rodrigo
     
