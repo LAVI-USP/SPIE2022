@@ -18,12 +18,14 @@ Soon
 
 
 ---
-Laboratory of Computer Vision ([Lavi](http://iris.sel.eesc.usp.br/lavi/)) 
-Department of Electrical and Computer Engineering 
-São Carlos School of Engineering, University of São Paulo 
+Laboratory of Computer Vision ([Lavi](http://iris.sel.eesc.usp.br/lavi/))  
+Department of Electrical and Computer Engineering  
+São Carlos School of Engineering, University of São Paulo  
 São Carlos - Brazil
 
-AI-based X-ray Imaging System ([AXIS](https://wang-axis.github.io)) 
-Department of Biomedical Engineering 
-Rensselaer Polytechnic Institute 
-Troy - USA 
+AI-based X-ray Imaging System ([AXIS](https://wang-axis.github.io))  
+Department of Biomedical Engineering  
+Rensselaer Polytechnic Institute  
+Troy - USA  
+
+
