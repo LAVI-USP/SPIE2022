@@ -151,13 +151,13 @@ if __name__ == '__main__':
       print("Epoch:[{}] LR:{}".format(epoch, optimizer.state_dict()['param_groups'][0]['lr']))
     
       # Train the model for 1 epoch
-    #   train(generator,
-    #          None,
-    #          optimizer, 
-    #          epoch, 
-    #          train_loader, 
-    #          device, 
-    #          summarywriter) 
+      train(generator,
+             None,
+             optimizer, 
+             epoch, 
+             train_loader, 
+             device, 
+             summarywriter) 
     
       # Update LR
       scheduler.step()
